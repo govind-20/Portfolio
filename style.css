@@ -1,276 +1,201 @@
 *{
-    margin: 0;
+    margin:0;
     padding: 0;
 }
-.hero{
-    height: 1000px;
-    width: 100%;
-   background-color: rgb(44, 44, 44);
-   background-image: url(img1.jpg);
-   background-repeat: no-repeat;
-   background-position: right;
+body{
+    background-color:rgb(0, 0, 0) ;
+  
+    
 }
-.hero1{
-    background: rgb(41, 40, 40);
-    width: 100%;
+.nav{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
     height: 100px;
 }
-nav{
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-between;
-    padding-top: 45px;
-    padding-left: 8%;
-   padding-right: 8%; 
+.logo img{
+   height:100px;
+   margin-left: 68px;
 }
-.logo{
-    color: aliceblue;
-    font-size: 45px;
-    letter-spacing: 1px;
-    /* cursor: pointer; */
+.home{
+    padding-left: 450px;
+}
+.home p{
+    display: inline;
+    font-size:14px;
+    cursor: pointer;
+    margin-left: 40px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.home p:hover{
+    color:red;
+}
+.case-stud input{
+    width: 120px;
+    height: 25px;
+    background-color:aqua;
+    border: transparent;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+.case-stud input:hover{
+    background-color: white;
+    color:red;
+}
+
+
+.box1{
+    height:35px;
+    width:35px;
+    background-color: rgba(128, 0, 128, 0.415);
+    margin-left: 800px;
+ 
+}
+.main-body{
+    height: 370px;
+    margin-left: 107px;
+    margin-top: 100px;
+    display:flex;
+    justify-content: space-between;
 
 }
-.logo:hover{
-    transform: scale(1.2);
+.left-part{
+    color:white;
+    width: 255px;
 }
-span{
+.left-part h4 span{
+    color:yellow;
+}
+.myname{
+    padding-top: 5px;
+    font-size: 50px;
+    padding-left: 5px;
+}
+.myname span{
     color: purple;
 }
-.content h4{
-    text-transform: capitalize;
+#sharma{
+    font-size: 40px;
 }
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding:10px 25px ;
-   
+#im{
+    padding-left: 5px
+}
+.developer{
+
+    padding-top: 10px;
+    padding-left: 5px;
     
 }
-nav ul li a{
-    color: white ;
-    font-weight: bold;
-    text-transform: capitalize;
+.developer p{
+    font-weight: 100px;
+    color:aqua;
+    text-shadow: .07px .07px aqua;
+}
+.developer span{
+    padding-top: 10px;
+}
+#tagline{
+    color:white;
+    padding-top:7px;
 
 }
-nav ul li a:hover{
-    color: red;
-    /* transition: .4s; */
+
+.hireme button {
+    width: 120px;
+    height: 25px;
+    background-color:aqua;
+    border: transparent;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 15px;
+    cursor:pointer;
 }
-.btn{
-    background-color:purple ;
-    color: white;
-    text-decoration: none;
-    border:2px solid transparent  ;
-    font-weight: bold;
-    padding: 15px 25px 15px ;
-    
-    border-radius: 30px;
-    transition: transform .4s;
+#hire:hover{
+    background-color: white;
+    color:red;
 }
-.btn:hover{
-    transform: scale(1.2);
-}
-.content{
-    position: absolute;
-    top: 50%;
-    left: 8%;
-}
-h1{
-    color: white;
-    margin: 20px 0px 20px;
-    font-size: 75px;
-    text-shadow: 10px 10px 10px 10px;
-}
-h3{
-    color: white;
-    font-size: 25px;
+.right-part img{
+    margin-right: 100px;
+    width: 400px;
     margin-bottom: 50px;
-}
-h4{
-color: white;
-letter-spacing: 2px;
-font-size: 20px;
-}
-.newslatter form input:first-child{
-    width: 380px;
-    max-width: 100% ;
-    padding: 14px 130px 14px 15px;
-    border: 2px solid purple;
-    border-radius: 30px;
-}
-.newslatter form input:last-child{
-    position:absolute;
-    display: inline-block;
-    padding:10px 30px;
-    border-radius: 30px;
-    background-color: purple;
-    color: white;
-    box-shadow: 2px 2px 2px 2px gray;
-  
-   
-}
-.newslatter form input:last-child:hover{
-    transform: scale(1.1);
+   background: transparent;
+   height: 360px;
 
 }
 .about{
+    height:200px;
     width: 100%;
-    padding: 100x 0px;
-    background-color: black;
+    color:white;
+  
+    margin-right: 100px;
+    background-color: rgb(49, 49, 49);
 }
-.about-text{
-    width: 550px;
-    padding: 20px;
-
+.about h2 span{
+color:red;
 }
-.main{
-    margin: 0px auto;
-    width: 1130px;
+h2{
+    text-align: center;
+    padding-top:10px;
+}
+.space{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 30px;
+    margin-left: 107px;
+}
+.space p{
+    width: 800px;
+    height:120px;
+    overflow: scroll;
+}
+.contact{
+    height: 300px;
+    width:100%;
+    color: white;
+    background-color: rgb(30, 30, 30);
+   
+}
+.contact h2 span{
+    color: red;
+}
+.space1{
     display: flex;
     align-items: center;
-}
-.about img{
-    height: auto;
-    width: 430px;
-}
-.about-text h2{
-    color: white;
-    font-size: 75px;
-    text-transform: capitalize;
-    margin-bottom: 20px;
-
-}
-.about-text h5{
-    color: white;
-    letter-spacing: 2px;
-    font-size: 22px;
-    margin-bottom: 25px;
-    text-transform: capitalize;
-
-}
-.about-text{
-    color: orchid;
-    letter-spacing: 1px;
-    font-size: 18px;
-    margin-bottom: 45px;
-
-
-}
-.about-text p{
-    text-transform: capitalize;
-}
-button{
-    background-color: purple;
-    width: 110px;
-    margin-top: 10px;
-    font-size: 20px;
-    color: white;
-    font-weight: bold;
-    border-radius: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-}
-button:hover{
-    /* transform: scale(1, 2); */
-    background-color: transparent;
-    border: 2px solid;
-}
-.service{
-    background: rgb(36, 35, 35);
-    width: 100%;
-    padding: 100px 0px;
-}
-.title{
-    color:  white;
-    width: 1130px;
-    margin: 30px auto;
-    text-align: center;
-
-}
-.box{
-    display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 400px;
+    padding-top: 30px;
 }
-.card{
-    height: 365px;
-    width: 335px;
-    padding: 20px 35px;
-    background:rgb(19, 18, 18) ;
-    border-radius: 20px;
-    margin: 15px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-}
-.card i{
-    font-size: 50px;
-    display: block;
-}
-h5{
-    color: rgb(252, 250, 250);
-    font-size: 23px;
-    margin-bottom:15px ;
-}
-.pra p{
-    color: blueviolet;
-    font-size: 20px;
-    line-height: 27px;
-    margin-bottom:25px;
-    word-spacing: 2px;
-}
-.card .button{
-    background-color: purple;
-    width: 450px;
-    margin-top: 10px;
-    font-size: 20px;
-    color: white;
-    font-weight: bold;
-    border-radius: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.card .button:hover{
-    background-color: transparent;
-    border: 2px solid;
-}
-.contact1{
-    width: 100%;
-    height: 290px;
-    background:  rgb(44, 44, 44);
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    text-transform: capitalize;
-
-}
-.contact1 p{ 
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 25px;
-
-}
-.contact1 .button1{
-    background-color: purple;
-    text-align: center;
+.chat{
     width: 150px;
-    margin-top: 10px;
-    font-size: 20px;
-    color: white;
-    font-weight: bold;
-    border-radius: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    margin-left: 40px;
+    height: 150px;
+    background-color: black;
+    margin-right: 30px;
+    padding-top: 10px;
+    
 }
-.contact1 .button1:hover{
-    background-color: transparent;
-    border: 2px solid;
+.chat p{
+    text-align: center;
+    padding-top: 20px;
+}
+.chat p span{
+    color:purple;
+    cursor: pointer;
+}
+
+.call{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    padding-top: 10px;
+}
+.call p{
+    text-align: center;
+    padding-top: 20px;
 }
 footer{
     position: relative;
@@ -319,16 +244,4 @@ footer p:nth-child(2){
     color: palevioletred;
     bottom: 35px;
     font-size: 14px;
-}
-.big{
-    text-transform: capitalize;
-    word-spacing: 2px;
-
-}
-.end{
-    text-transform: capitalize;
-    word-spacing: 2px;
-}
-.content h1{
-    text-shadow: 10px 10px 10px 10px;
 }
